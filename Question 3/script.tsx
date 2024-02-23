@@ -1,9 +1,11 @@
 let userName = window.prompt("Enter your name", "Harry Potter");
-
+// Selected HTML Elements
 let LowerCaseElement = document.getElementById("LowerCase");
 let UpperCaseElement = document.getElementById("UpperCase");
 let TitleCaseElement = document.getElementById("TitleCase");
 
+
+// Adding value to elements
 if (userName) {
   if (LowerCaseElement && UpperCaseElement && TitleCaseElement) {
     LowerCaseElement.innerHTML = "Lower Case = " + userName.toLowerCase();

@@ -4,6 +4,8 @@ let author = "Steve Jobs";
 
 let quoteElement = document.getElementById("quote");
 
+
+// Adding value to elements using backtikcs
 if (quoteElement) {
   quoteElement.innerHTML = `${author} once said, "${quote}."`;
 }
