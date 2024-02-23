@@ -1,5 +1,9 @@
-let names = ["abdullah", "ahmed", "ali", "amir", "bilal"];
+let Question11 = () => {
+  let names = ["abdullah", "ahmed", "ali", "amir", "bilal"];
 
-names.forEach((name) => {
-  console.log(name);
-});
+  names.forEach((name) => {
+    console.log(name);
+  });
+};
+
+Question11();
