@@ -1,8 +1,13 @@
 
 
 let Question20 = () => {
-    let languages : string[] = ["urdu", "english", "arabic", "chinese", "spanish", "punjabi", "sindhi", "pashto", "balochi", "kashmiri"];
+    
+    let languages = ["urdu", "english", "arabic", "chinese", "spanish", "punjabi", "sindhi", "pashto", "balochi", "kashmiri"];
+
+    // Inteentional Indexing Error
+   // console.log(languages[languages.length])
     console.log(languages)
+
 };
 
 Question20();
