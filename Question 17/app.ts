@@ -56,6 +56,11 @@ let Question17 = () => {
     removedpeoples.forEach(names => {
         console.log(`Dear ${names} I am sorry to inform you that I can not invite you to Dinner`);
     })
+
+    console.log("Completed Question 19 Total Invited Peoples")
+    console.log(invitedPoeples.length)
 };
 
 Question17();
+
+export default Question17;

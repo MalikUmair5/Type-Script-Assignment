@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let Question17 = () => {
     //Abdullah can not make to the dinner so we have to exclude it and fahad is the new invit
     let names = ["Abdullah", "Hassan", "Usaif", "Umair", "fadi"];
@@ -49,5 +50,7 @@ let Question17 = () => {
     removedpeoples.forEach(names => {
         console.log(`Dear ${names} I am sorry to inform you that I can not invite you to Dinner`);
     });
+    console.log(invitedPoeples.length);
 };
 Question17();
+exports.default = Question17;
