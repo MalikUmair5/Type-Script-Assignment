@@ -11,9 +11,9 @@ let Question15 = () => {
             names.splice(index, 1, "Fahad");
         }
     });
+    console.log(names);
     names.forEach(names => {
         console.log(`Dear ${names} I invite you to Dinner in my House Please Come`);
     });
-    console.log(names);
 };
 Question15();
