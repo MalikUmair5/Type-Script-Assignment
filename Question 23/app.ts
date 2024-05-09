@@ -44,6 +44,7 @@ let Question23 = () => {
     console.log(noOneBowler == "Jasprit Bumrah")
 
 
+
 };
 
 Question23();
