@@ -1,6 +1,6 @@
 
 
-let Question41 = () => {
+let Question42 = () => {
 
     let magician_names : string[] = ["Dynamo", "David Blaine", "David Copperfield", "Harry Houdini", "Penn & Teller", "Criss Angel", "Derren Brown", "Lance Burton", "Shin Lim", "Doug Henning"];    
 
@@ -13,4 +13,4 @@ let Question41 = () => {
 
 };
 
-Question41();
+Question42();
